@@ -2,7 +2,12 @@ body {
   background: #f1f2f6;
   margin-left: 10%;
   margin-right: 10%;
+  /* ADDED A FEW THINGS TO BODY -Heph */
+  font-family: 'Helvetica';
+  font-style: normal;
+  
 }
+
 .svg {
   width: 38px;
   height: 38px;
@@ -119,3 +124,93 @@ body {
   font-size: 31px;
   transition: ease-in;
 }
+
+/* FIRST SECTION AND LAST SECTION */
+.first-section,
+.last-section {
+    padding: 1rem;
+    /* width: 80%; */
+    margin: 1rem 0;
+    border: 2px solid red;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #ffff;
+}
+
+.divider {
+    border: 2px solid #707070;
+    opacity: 0.18;
+    /* width: 81%; */
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.pic-search{
+    display: flex;
+    align-items: center;
+    
+}
+
+.searchbar {
+    flex: 8;
+}
+
+button{
+    width: 100%;
+    text-align: left;
+    border-radius: 10px;
+    border-style: none;
+    padding-block: 0.2rem;
+    margin: 0 0.5rem;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #636468;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.city,
+.phone,
+.email {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #636468;;
+}
+
+.education > h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.education > p {
+    font-family: 'Helvetica Light';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #636468;
+}
+
+@media(max-width: 500px) {
+    .details {
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+
+    .city, .phone, .email {
+        flex-basis: 100%;
+        margin: 0.5rem 0;
+    }
+}
+
