@@ -119,3 +119,44 @@ body {
   font-size: 31px;
   transition: ease-in;
 }
+
+
+.aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: left;
+  font-family: Helvetica;
+}
+
+.aside h1 {
+  font-weight: 700;
+  font-size: 20px;
+  justify-content: center;
+  color: black;
+}
+.aside p {
+  font-weight: 400;
+  font-size: 15px;
+  list-style: none;
+  line-height: 17.25px;
+  color:#636468;
+}
+
+.p_languages {
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #707070;
+}
+
+.top, .s_skills {
+  border-radius: 20px;
+  background-color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 12px;
+  margin-bottom: 25px;
+
+}
