@@ -6,6 +6,7 @@ body {
   font-family: 'Helvetica';
   font-style: normal;
   
+  
 }
 
 .svg {
@@ -151,11 +152,11 @@ body {
     
 }
 
-.searchbar {
+.search-bar {
     flex: 8;
 }
 
-button{
+.name-field{
     width: 100%;
     text-align: left;
     border-radius: 10px;
@@ -213,4 +214,3 @@ button{
         margin: 0.5rem 0;
     }
 }
-
