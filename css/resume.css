@@ -90,7 +90,7 @@ body {
   padding: 0 5px;
 }
 
-.header .profile-socials .profile .img {
+.header .profile-socials .profile .img, .small-pic {
   background-size: cover;
   width: 47px;
   height: 47px;
@@ -128,11 +128,8 @@ body {
 
 /* FIRST SECTION AND LAST SECTION */
 .first-section,
-.last-section {
+.last-section, .experience {
     padding: 1rem;
-    /* width: 80%; */
-    margin: 1rem 0;
-    border: 2px solid red;
     border-radius: 10px;
     border-style: none;
     background-color: #ffff;
@@ -141,7 +138,6 @@ body {
 .divider {
     border: 2px solid #707070;
     opacity: 0.18;
-    /* width: 81%; */
     margin: 1rem 0;
     width: 100%;
 }
@@ -202,6 +198,11 @@ body {
     color: #636468;
 }
 
+main{
+  display: flex;
+  column-gap: 2rem;
+}
+
 @media(max-width: 500px) {
     .details {
         flex-direction: column;
@@ -213,4 +214,123 @@ body {
         flex-basis: 100%;
         margin: 0.5rem 0;
     }
+
+    main {
+      flex-direction: column;
+    }
+}
+
+/* EXPERIENCE SECTION  */
+
+.experience .experience-title {
+  display: flex;
+}
+
+.experience .experience-title .position-details {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 0.5rem;
+}
+
+.experience-title .position-details .sub-position-details{
+  display: flex;
+  margin: 0;
+}
+
+.experience .experience-title .position-details p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #636468;
+  margin: 0;
+}
+
+.experience .experience-title .position-details h1 {
+  font-weight: 700;
+  font-size: 24px;
+  /* line-height: 28px; */
+  color: #000000;
+  margin: 0;
+}
+
+
+.experience-title .company-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.experience .job-description p{
+  font-weight: 400;
+  font-size: 20px;
+  /* line-height: 23px; */
+  color: #000000;
+}
+
+.experience .reaction {
+  display: flex;
+  justify-content: space-around;
+}
+.experience .reaction .reaction-item {
+  display: flex;
+  align-items: center;
+}
+
+
+.experience .reaction .reaction-item p {
+  font-weight: 400;
+  font-size: 15px;
+  /* line-height: 17px; */
+  color: #636468;
+  padding-inline: 0.5rem;
+}
+
+.comment{
+  font-size: 18px;
+  
+}
+
+.sub-main {
+  padding-top: 0;
+}
+
+/* ASIDE  */
+
+.aside {
+  font-family: Helvetica;
+  padding-top: 0;
+}
+
+.aside h1 {
+  font-weight: 700;
+  font-size: 20px;
+  justify-content: center;
+  color: black;
+}
+.aside p {
+  font-weight: 400;
+  font-size: 15px;
+  list-style: none;
+  line-height: 17.25px;
+  color:#636468;
+}
+
+.p_languages {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #707070;
+}
+
+.top, .s_skills {
+  border-radius: 20px;
+  background-color: white;
+  padding-inline: 1.5rem;
+  padding-block: 2rem;
+  margin-top: 2rem;
+}
+
+.top {
+  margin-top: 0;
 }
