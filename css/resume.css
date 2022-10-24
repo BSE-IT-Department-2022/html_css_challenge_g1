@@ -299,8 +299,12 @@ main{
 /* ASIDE  */
 
 .aside {
-  font-family: Helvetica;
+  width: 30%;
+  padding-left: 15px;
   padding-top: 0;
+  margin-left: 15px;
+  float: left;
+  font-family: Helvetica;
 }
 
 .aside h1 {
@@ -318,6 +322,8 @@ main{
 }
 
 .p_languages {
+  margin-bottom: 30px;
+  padding-bottom: 10px;
   margin-bottom: 2rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid #707070;
@@ -326,6 +332,12 @@ main{
 .top, .s_skills {
   border-radius: 20px;
   background-color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 12px;
+  margin-bottom: 25px;
   padding-inline: 1.5rem;
   padding-block: 2rem;
   margin-top: 2rem;
